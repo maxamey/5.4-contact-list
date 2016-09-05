@@ -1,3 +1,57 @@
 /*
   Contact Stylesheet
 */
+
+.contact__container {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+.header__container {
+  background-color: rgb(167, 208, 118);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 2px solid rgb(128, 186, 58);
+  height: 200px;
+  padding: 20px 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.backButton {
+  border: 1px solid rgb(46, 83, 0);
+  border-radius: 5px;
+  color: black;
+  left: 20px;
+  padding: 5px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.contact__image {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 50%;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+}
+
+.info__container {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  max-height: 400px;
+  overflow: scroll;
+  padding: 0;
+}
+
+.contact__item {
+  background-color: white;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
