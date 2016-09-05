@@ -1,3 +1,77 @@
 /*
   Main Stylesheet
 */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(243, 243, 243);
+  padding-top: 30px;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  width: 500px;
+}
+
+
+.title__bar {
+  background-color: rgb(129, 188, 57);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 2px solid rgb(110, 164, 40);
+  height: 70px;
+  padding: 20px 20px;
+  width: 100%;
+
+}
+
+.title__text {
+  color: white;
+  font-weight: normal;
+  margin: 0;
+}
+
+.contacts__list {
+font-size: 14px;
+list-style: none;
+margin: 0;
+max-height: 400px;
+overflow: scroll;
+padding: 0;
+}
+
+.contact__route {
+  text-decoration: none;
+}
+
+.contacts__item {
+  background-color: white;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+.contact__item--image {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.contact__item--text {
+  color: black;
+  font-weight: lighter;
+  display: inline-block;
+  margin: 0;
+
+}
