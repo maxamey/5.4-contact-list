@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "watch-dev": "webpack-dev-server --inline",
-    "build": "webpack"
+    "build": "webpack",
     "test": "jest"
   },
   "author": "",
@@ -17,12 +17,16 @@
     "babel-preset-react": "^6.11.1",
     "jest": "^15.1.0",
     "react": "^15.3.1",
+    "react-addons-test-utils": "^15.3.1",
     "react-dom": "^15.3.1",
     "react-router": "^2.7.0",
     "react-test-renderer": "^15.3.1",
     "webpack": "^1.13.2"
-  }
+  },
   "jest": {
     "automock": false
+  },
+  "dependencies": {
+    "jest": "^15.1.1"
   }
 }
